@@ -1,0 +1,165 @@
+/* (start) Both Pages */
+
+*{
+    margin: 0%;
+}
+#grad1 {
+    height: 100%;
+    background-image: linear-gradient(rgb(162, 162, 243), #e4e0de);
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+h2, h3, p, nav, td {
+    text-align: center;
+}
+
+/* (start) Nav Bar (Wreck) */
+
+#navbar{
+    list-style-type: none;
+    padding: 0;
+    padding-top: 6px;
+    padding-right: 100%;
+    background-color: rgb(5, 43, 65);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+.navitem{
+    float: left;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.navitem a{
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(162, 162, 243);
+}
+#contactnav{
+    margin-left: 260px;
+    margin-top: -56px;
+}
+#contactnav:hover{
+    margin-left: 315px;
+    margin-top: -57px;
+}
+.navitem:hover{
+    background-color: rgb(11, 112, 119);
+    color: rgb(254, 254, 255);
+    padding: 12px 20px;
+    margin-left: 60px;
+}
+
+/* (end) Nav Bar (Wreck) */
+
+h2{
+    margin-top: 0%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+h3{
+    font-size: 25px;
+}
+.fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/* (end) Both Pages */
+/* (start) Main Page */
+
+.class{
+    padding-bottom: 160px;
+}
+.column{
+    float: left;
+    width: 33.3%;
+    margin-top: 30px;
+}
+#justme {
+    border: 8px solid black;
+    margin: 50px;
+    margin-left: 200px;
+    height: 500px
+}
+#justme2 {
+    border: 8px solid black;
+    margin: 50px;
+    margin-left: 120px;
+    height: 500px
+}
+#justme3 {
+    border: 8px solid black;
+    margin: 50px;
+    height: 500px;
+}
+#intro{
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+#meandmia{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 26%;
+    width: 50%;    
+}
+#hobby{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 32%;
+    margin-top: 20px;
+    border: 2px solid black;
+    width: 40%;
+}
+.hobList{
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* (end) Main Page */
+/* (start) Second Page */
+
+#story{
+    float: bottom;
+    border: 2px solid black;
+    border-left: 20px;
+    border-right: 20px;
+    border-radius: 130px;
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 110px;
+}
+#tble1{
+    border-collapse: collapse;
+    vertical-align: center;
+    margin-left: 34%;
+    margin-right: 30%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 30%;
+}
+form {
+    padding: 15px 20px 12px 40px;
+    background-color: rgb(219, 228, 231);
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 25%;
+    margin-left: 35%;
+}
+
+/* (end) Second Page */
